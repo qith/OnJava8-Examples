@@ -18,6 +18,7 @@ interface Instrument {
 }
 
 class Wind implements Instrument {
+  // toString() 是根基类 Object 的方法，所以它不需要出现在接口中。
   @Override public String toString() {
     return "Wind";
   }
